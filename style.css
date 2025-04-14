@@ -1,0 +1,85 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.foto {
+    width: 250px;
+    border-radius: 100px;
+}
+
+.activeWeb {
+    border-bottom:solid 3px #212529;
+    font-weight: bold;
+    color: #212529;
+}
+
+.activeMobile {
+    border-bottom:solid 3px #f8f9fa;
+    font-weight: bold;
+    color: #f8f9fa;
+}
+
+@media (min-width: 300px) and (max-width: 576px) {
+    .display-1 {
+        font-size: 36px;
+    }
+    #beranda {
+        padding-top: 150px;
+        height: 100vh;
+    }
+
+    #tentang, #pengalaman, #portofolio, #kontak {
+        padding-top: 60px;
+    } 
+}
+
+@media (min-width: 577px) and (max-width: 768px) { 
+    #beranda {
+        padding-top: 200px;
+        height: 100vh;
+    }
+    #tentang, #pengalaman, #portofolio, #kontak {
+        padding: 60px;
+    } 
+}
+
+@media (min-width: 769px) and (max-width: 992px){
+    #beranda {
+        padding-top: 200px;
+        height: 100vh;
+    }  
+    #tentang, #pengalaman, #portofolio, #kontak {
+        padding: 60px;
+    } 
+}
+
+@media (min-width: 993px) and (max-width: 1200px){
+    #beranda {
+        padding-top: 150px;
+        height: 100vh;
+    }
+    #tentang, #pengalaman, #portofolio, #kontak {
+        padding: 60px;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1400px){
+    #beranda {
+        padding-top: 150px;
+        height: 100vh;
+    }
+    #tentang, #pengalaman, #portofolio, #kontak {
+        padding: 60px;
+    } 
+}
+
+@media (min-width: 1400px) and (max-width: 2000px){
+    #beranda {
+        padding-top: 250px;
+        height: 100vh;
+    }
+    #tentang, #pengalaman, #portofolio, #kontak {
+        padding: 60px;
+    } 
+}
